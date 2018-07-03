@@ -1,0 +1,50 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.AppContainer {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.App {
+    text-align: left;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 12px;
+}
+  
+.AddTodo form {
+    display: flex;
+}
+  
+.AddTodo .TodoText {
+    flex-grow: 2;
+}
+  
+.AddTodo .TodoButton {
+    flex-grow: 1;
+}
+  
